@@ -99,7 +99,7 @@ begin
             memo1.lines.text:=('x1 = ')+FloatToStr(x1);
             memo1.Lines.Add(('x2 = ')+FloatToStr(x2));
         end
-  else ShowMessage('Неверные значения');
+  else ShowMessage('Неверные значения!');
 end;
 
 
